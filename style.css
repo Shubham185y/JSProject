@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #009578;
+}
+#app{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+}
+.note{
+  height: 200px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+}
+.add-note{
+  height: 200px;
+  border: none;
+  outline: none;
+  background: rgba(0,0,0,0.1);
+  font-size: 120px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.25s;
+}
+.add-note:hover{
+  background: rgba(0, 0,0,0.2);
+}
