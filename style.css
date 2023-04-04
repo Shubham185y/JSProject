@@ -34,6 +34,7 @@ h4{
   box-sizing: border-box;
   padding: 16px;
   border: none;
+  font-size: 30px;
   border-radius: 10px;
   box-shadow: 0 0 17px rgba(0,0,0,0.5);
   resize: none;
